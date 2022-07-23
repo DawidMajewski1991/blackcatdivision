@@ -41,15 +41,18 @@
   }
 
   .navigation__list > .navigation__item:hover > .navigation__sublist {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr;
     list-style-type: none;
     color:white;
     padding: 0;
-    background: rgba(0, 0, 0, 0.904);
-    margin: 8px;
-    width: 180px;
-    text-align:left;
+    background: rgba(0, 0, 0, 0.938);
+    margin: 8px 0 0 0;
+    width: 50%;
+    justify-items: center;
     position: absolute;
+    border: 1px solid white;
+    left: 25%;
   }
 
     .navigation__list--visible {
