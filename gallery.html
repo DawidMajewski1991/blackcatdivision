@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Black Cat Division - Home</title>
+
+        <meta name="description" content="">
+        <link rel="icon" type="image/x-icon" href="img/icon.png">
+
+
+        <meta property="og:title" content="Black Cat Divsion" />
+        <meta property="og:description" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="" />
+
+        <link href="css/normalize.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/gallery.css" rel="stylesheet" type="text/css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+
+
+
+
+<body>
+	<header class="header-main">
+        <nav class="navigation">
+            <ul class="navigation__list">
+
+                <li class="navigation__item">
+                    <a class="navigation__link" href="index.html#home"><span class="navigation__arrow">⮟ </span>HOME</a>
+                </li>
+                
+                <li class="navigation__item">
+                    <a class="navigation__link" href="index.html#school"><span class="navigation__arrow">⮟ </span>SZKOŁA</a>
+                    <ul class="navigation__sublist">
+                        <li class="navigation__subitem">
+                            <a class="navigation__sublink" href="index.html#school"><span class="navigation__arrow">⮟ </span>O NAS</a>
+                        </li>
+                        <li class="navigation__subitem">
+                            <a class="navigation__sublink" href="index.html#kalandyk"><span class="navigation__arrow">⮟ </span>GRACJAN</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="navigation__item">
+                    <a class="navigation__link" href="index.html#vocal"><span class="navigation__arrow">⮟ </span>WOKAL</a>
+                    <ul class="navigation__sublist">
+                        <li class="navigation__subitem">
+                            <a class="navigation__sublink" href="index.html#vocal"><span class="navigation__arrow">⮟ </span>INFO</a>
+                        </li>
+                        <li class="navigation__subitem">
+                            <a class="navigation__sublink" href="index.html#show"><span class="navigation__arrow">⮟ </span>SPRAWDŹ</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="navigation__item">
+                    <a class="navigation__link" href="index.html#guitar"><span class="navigation__arrow">⮟ </span>INSTRUMENTY</a>
+                    <ul class="navigation__sublist">
+                        <li class="navigation__subitem">
+                            <a class="navigation__sublink" href="index.html#guitar"><span class="navigation__arrow">⮟ </span>GITARA</a>
+                        </li>
+                        <li class="navigation__subitem">
+                            <a class="navigation__sublink" href="index.html#bass"><span class="navigation__arrow">⮟ </span>BAS</a>
+                        </li>
+                        <li class="navigation__subitem">
+                            <a class="navigation__sublink" href="index.html#piano"><span class="navigation__arrow">⮟ </span>PIANINO</a>
+                        </li>
+                        <li class="navigation__subitem">
+                            <a class="navigation__sublink" href="index.html#ukulele"><span class="navigation__arrow">⮟ </span>UKULELE</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="navigation__item">
+                    <a class="navigation__link" href="index.html#studio"><span class="navigation__arrow">⮟ </span>STUDIO</a>
+                </li>
+
+                <li class="navigation__item">
+                    <a class="navigation__link" href="index.html#publishing"><span class="navigation__arrow">⮟ </span>WYDAWNICTWO</a>
+                </li>
+
+                <li class="navigation__item">
+                    <a class="navigation__link" href="gallery.html"><span class="navigation__arrow">⮟ </span>GALERIA</a>
+                </li>
+
+                <li class="navigation__item">
+                    <a class="navigation__link" href="index.html#contact"><span class="navigation__arrow">⮟ </span>KONTAKT</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main__grid">
+
+        <section class="slider">
+            <section class="slider__container">
+                <button class="slider__button slider__button--prev" data-button-prev>ᐸ</button>
+                <figure class="slide" data-slide></figure>
+                <button class="slider__button slider__button--next" data-button-next>ᐳ</button>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer" id="contact">
+        <img class="footer__logo" src="img\logo_black_long.png">
+        <section class="footer__contact">
+            <p class="footer__paragraph">Adres:<br><span class="footer__important">82-300 Elbląg, ul. Kosynierów Gdyńskich 4</span></p>
+            <p class="footer__paragraph">Email:<br><span class="footer__important">gracjan.kalandyk@gmail.com</span></p>
+            <p class="footer__paragraph">Telefon:<br><span class="footer__important">503 469 326</span></p>
+        </section>
+    </div>
+</footer>
+    <script src="js/slider.js"></script>
+    <script>
+        const imageArr = [
+            'img/slider/pic(1).png',
+            'img/slider/pic(2).jpg',
+            'img/slider/pic(3).jpg',
+            'img/slider/pic(4).jpg',
+            'img/slider/pic(5).jpg',
+            'img/slider/pic(6).jpg',
+            'img/slider/pic(7).jpg',
+            'img/slider/pic(8).jpg',
+            'img/slider/pic(9).jpg',
+            'img/slider/pic(10).jpg',
+        ];
+
+        const slider = new Slider(imageArr)
+        slider.initializeSlider();
+    </script>
+</body>
+</html>
