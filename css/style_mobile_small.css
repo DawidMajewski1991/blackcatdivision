@@ -5,13 +5,12 @@
   }
 
   .header-main {
-    background-color: black;
-    position: fixed;
+    background-color: rgba(0, 0, 0, 0.918);
+    position:fixed;
     width: 100vw;
     padding: 0;
     margin: 0;
-    z-index: 100;
-  }
+    }
 
   .navigation__list {
     display: none;

@@ -89,6 +89,10 @@ body::-webkit-scrollbar {
   color:#ff2323
 }
 
+.top {
+  display: none;
+}
+
 .hamburger {
   display: none;
 }
