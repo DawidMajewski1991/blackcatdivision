@@ -67,7 +67,7 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-.navigation__list > .navigation__item:hover > .navigation__sublist {
+.navigation__list > .navigation__item:active > .navigation__sublist {
   display: block;
   list-style-type: none;
   color:white;
