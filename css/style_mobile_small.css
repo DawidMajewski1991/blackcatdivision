@@ -39,7 +39,7 @@
     display: none;
   }
 
-  .navigation__list > .navigation__item:hover > .navigation__sublist {
+  .navigation__sublist--visible {
     display: grid;
     grid-template-columns: 1fr;
     list-style-type: none;
