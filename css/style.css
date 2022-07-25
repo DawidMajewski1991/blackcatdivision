@@ -17,6 +17,10 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
+
+.navigation__arrow {
+  width: 12px;
+}
 @media (min-width: 1440px) and (max-width: 2048px) {
   .main__grid {
     display:grid ;
@@ -47,10 +51,6 @@ body::-webkit-scrollbar {
     padding: 20px 0;
     width: 130px;
     text-align: center;
-  }
-
-  .navigation__arrow {
-    color:#ff2323;
   }
 
   .navigation__link {

@@ -19,6 +19,7 @@
         <link href="css/normalize.css" rel="stylesheet" type="text/css">
         <link href="css/style.css" rel="stylesheet" type="text/css">
         <link href="css/gallery.css" rel="stylesheet" type="text/css">
+        <link href="css/style_mobile_small.css" rel="stylesheet" type="text/css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,70 +30,74 @@
 
 
 <body>
-	<header class="header-main">
+    <header class="header-main">
+        <section class="top">
+            <h2 class="top__logo">BLACK CAT DIVISION</h2>
+            <button class="hamburger hamburger--js">☰</button>
+        </section>
         <nav class="navigation">
             <ul class="navigation__list">
 
                 <li class="navigation__item">
-                    <a class="navigation__link" href="index.html#home"><span class="navigation__arrow">⮟ </span>HOME</a>
+                    <a class="navigation__link" href="#home"><img class="navigation__arrow" src="img/icons8-arrow-64.png"> HOME</a>
                 </li>
                 
-                <li class="navigation__item">
-                    <a class="navigation__link" href="index.html#school"><span class="navigation__arrow">⮟ </span>SZKOŁA</a>
-                    <ul class="navigation__sublist">
+                <li class="navigation__item navigation__item--school-js">
+                    <a class="navigation__link "><img class="navigation__arrow" src="img/icons8-arrow-64.png"> SZKOŁA</a>
+                    <ul class="navigation__sublist navigation__sublist--school-js">
                         <li class="navigation__subitem">
-                            <a class="navigation__sublink" href="index.html#school"><span class="navigation__arrow">⮟ </span>O NAS</a>
+                            <a class="navigation__sublink" href="#school"><img class="navigation__arrow" src="img/icons8-arrow-64.png"> O NAS</a>
                         </li>
                         <li class="navigation__subitem">
-                            <a class="navigation__sublink" href="index.html#kalandyk"><span class="navigation__arrow">⮟ </span>GRACJAN</a>
+                            <a class="navigation__sublink" href="#kalandyk"><img class="navigation__arrow" src="img/icons8-arrow-64.png"> GRACJAN</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="navigation__item navigation__item--vocal-js">
+                    <a class="navigation__link"><img class="navigation__arrow" src="img/icons8-arrow-64.png"> WOKAL</a>
+                    <ul class="navigation__sublist navigation__sublist--vocal-js">
+                        <li class="navigation__subitem">
+                            <a class="navigation__sublink" href="#vocal"><img class="navigation__arrow" src="img/icons8-arrow-64.png"> INFO</a>
+                        </li>
+                        <li class="navigation__subitem">
+                            <a class="navigation__sublink" href="#show"><img class="navigation__arrow" src="img/icons8-arrow-64.png"> SPRAWDŹ</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="navigation__item navigation__item--instruments-js">
+                    <a class="navigation__link"><img class="navigation__arrow" src="img/icons8-arrow-64.png"> INSTRUMENTY</a>
+                    <ul class="navigation__sublist navigation__sublist--instruments-js">
+                        <li class="navigation__subitem">
+                            <a class="navigation__sublink" href="#guitar"><img class="navigation__arrow" src="img/icons8-arrow-64.png"> GITARA</a>
+                        </li>
+                        <li class="navigation__subitem">
+                            <a class="navigation__sublink" href="#bass"><img class="navigation__arrow" src="img/icons8-arrow-64.png"> BAS</a>
+                        </li>
+                        <li class="navigation__subitem">
+                            <a class="navigation__sublink" href="#piano"><img class="navigation__arrow" src="img/icons8-arrow-64.png"> PIANINO</a>
+                        </li>
+                        <li class="navigation__subitem">
+                            <a class="navigation__sublink" href="#ukulele"><img class="navigation__arrow" src="img/icons8-arrow-64.png"> UKULELE</a>
                         </li>
                     </ul>
                 </li>
 
                 <li class="navigation__item">
-                    <a class="navigation__link" href="index.html#vocal"><span class="navigation__arrow">⮟ </span>WOKAL</a>
-                    <ul class="navigation__sublist">
-                        <li class="navigation__subitem">
-                            <a class="navigation__sublink" href="index.html#vocal"><span class="navigation__arrow">⮟ </span>INFO</a>
-                        </li>
-                        <li class="navigation__subitem">
-                            <a class="navigation__sublink" href="index.html#show"><span class="navigation__arrow">⮟ </span>SPRAWDŹ</a>
-                        </li>
-                    </ul>
+                    <a class="navigation__link" href="#studio"><img class="navigation__arrow" src="img/icons8-arrow-64.png"> STUDIO</a>
                 </li>
 
                 <li class="navigation__item">
-                    <a class="navigation__link" href="index.html#guitar"><span class="navigation__arrow">⮟ </span>INSTRUMENTY</a>
-                    <ul class="navigation__sublist">
-                        <li class="navigation__subitem">
-                            <a class="navigation__sublink" href="index.html#guitar"><span class="navigation__arrow">⮟ </span>GITARA</a>
-                        </li>
-                        <li class="navigation__subitem">
-                            <a class="navigation__sublink" href="index.html#bass"><span class="navigation__arrow">⮟ </span>BAS</a>
-                        </li>
-                        <li class="navigation__subitem">
-                            <a class="navigation__sublink" href="index.html#piano"><span class="navigation__arrow">⮟ </span>PIANINO</a>
-                        </li>
-                        <li class="navigation__subitem">
-                            <a class="navigation__sublink" href="index.html#ukulele"><span class="navigation__arrow">⮟ </span>UKULELE</a>
-                        </li>
-                    </ul>
+                    <a class="navigation__link" href="#publishing"><img class="navigation__arrow" src="img/icons8-arrow-64.png"> WYDAWNICTWO</a>
                 </li>
 
                 <li class="navigation__item">
-                    <a class="navigation__link" href="index.html#studio"><span class="navigation__arrow">⮟ </span>STUDIO</a>
+                    <a class="navigation__link" href="gallery.html"><img class="navigation__arrow" src="img/icons8-arrow-64.png"> GALERIA</a>
                 </li>
 
                 <li class="navigation__item">
-                    <a class="navigation__link" href="index.html#publishing"><span class="navigation__arrow">⮟ </span>WYDAWNICTWO</a>
-                </li>
-
-                <li class="navigation__item">
-                    <a class="navigation__link" href="gallery.html"><span class="navigation__arrow">⮟ </span>GALERIA</a>
-                </li>
-
-                <li class="navigation__item">
-                    <a class="navigation__link" href="index.html#contact"><span class="navigation__arrow">⮟ </span>KONTAKT</a>
+                    <a class="navigation__link" href="#contact"><img class="navigation__arrow" src="img/icons8-arrow-64.png"> KONTAKT</a>
                 </li>
             </ul>
         </nav>
@@ -117,6 +122,7 @@
         </section>
     </div>
 </footer>
+    <script src="js/hamburger.js"></script>
     <script src="js/slider.js"></script>
     <script>
         const imageArr = [
