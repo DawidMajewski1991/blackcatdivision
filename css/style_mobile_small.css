@@ -116,6 +116,21 @@
     background: rgb(0, 0, 0);
   }
 
+  .home__mobile-addon {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    background-color: #000000;
+    min-height: 300px;
+  }
+
+  .home__mobile-addon-paragraph {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+  }
+
   .home__logo {
     width: 100vw;
   }

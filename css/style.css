@@ -108,6 +108,10 @@ body::-webkit-scrollbar {
     width: 100vw;
   }
 
+  .home__mobile-addon {
+    display: none;
+  }
+
   .window {
     min-height: 100vh;
   }
