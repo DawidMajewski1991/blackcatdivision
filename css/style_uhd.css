@@ -436,15 +436,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 128px;
-    justify-items: start;
+    justify-items: center;
     align-items: center;
     padding: 96px 128px;
   }
 
   .footer__paragraph {
     color: white;
-    text-align:left;
+    text-align:center;
     font-size: 24px;
+    margin-top: 0;
   }
 
   .footer__important {
@@ -452,15 +453,17 @@
   }
 
   .footer__logo {
-    width: 100%;
+    width: 85%;
   }
 
   .footer__links {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 90%;
-    padding-left: 32px;
+    width: 100%;
+    text-align: center;
+    padding-top: 24px;
   }
+
 
   .space {
     height: 20px;
@@ -496,7 +499,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
-    justify-items: end;
+    justify-items: center;
     width: 100%;
     padding-top: 40px;
     padding-right: 40px;

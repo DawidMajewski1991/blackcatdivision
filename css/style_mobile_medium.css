@@ -432,15 +432,15 @@
     background-color: black;
     min-height: 300px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 64px;
-    justify-items: start;
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+    justify-items: center;
     padding: 96px 128px;
   }
 
   .footer__paragraph {
     color: white;
-    text-align:left;
+    text-align: center;
   }
 
   .footer__paragraph--center {
@@ -457,6 +457,16 @@
 
   .footer__logo {
     width: 100%;
+  }
+
+  .footer__links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+  }
+
+  .footer__link {
+    font-size: 16px;
   }
 
   .space {
@@ -486,5 +496,19 @@
     margin: 24px 0;
     width: 400px;
     height: 225px;
+  }
+
+  .social {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .social__icon {
+    font-size: 42px;
   }
 }

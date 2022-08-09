@@ -519,6 +519,17 @@
     width: 100%;
   }
 
+  .footer__links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    padding-bottom: 32px;
+  }
+
+  .footer__link {
+    font-size: 12px;
+  }
+
   .space {
     height: 20px;
     background: black;
@@ -546,5 +557,19 @@
     margin: 24px 0;
     width: 240px;
     height: 135px;
+  }
+
+  .social {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .social__icon {
+    font-size: 24px;
   }
 }
