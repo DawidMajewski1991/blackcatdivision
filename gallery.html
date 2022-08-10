@@ -24,6 +24,7 @@
         <link href="css/style_mobile_medium.css" rel="stylesheet" type="text/css">
         <link href="css/style_uhd.css" rel="stylesheet" type="text/css">
         <link href="css/style_mobile_small.css" rel="stylesheet" type="text/css">
+        <link href="icons/css/fontello.css" rel="stylesheet" type="text/css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -54,6 +55,9 @@
                         </li>
                         <li class="navigation__subitem">
                             <a class="navigation__sublink" href="index.html#kalandyk"><img class="navigation__arrow" src="img/icons8-arrow-64a.png"> GRACJAN</a>
+                        </li>
+                        <li class="navigation__subitem">
+                            <a class="navigation__sublink" href="index.html#references"><img class="navigation__arrow" src="img/icons8-arrow-64a.png"> OPINIE</a>
                         </li>
                     </ul>
                 </li>
@@ -119,12 +123,39 @@
 
     <footer class="footer" id="contact">
         <img class="footer__logo" src="img\logo_black_long.png">
+        <div class="social">
+            <a class="social__link" href="https://www.facebook.com/blackcatdivision/" target="_blank"><i class="social__icon social__icon--facebook demo-icon icon-facebook"></i></a>
+            <a class="social__link" href="https://www.instagram.com/blackcatdivision/?hl=pl" target="_blank"><i class="social__icon social__icon--instagram demo-icon icon-instagram"></i></a>
+            <a class="social__link" href="https://www.youtube.com/user/GracjanKalandyk" target="_blank"><i class="social__icon social__icon--youtube demo-icon icon-youtube-play"></i></a>
+            <a class="social__link" href="https://music.apple.com/us/artist/gracjan-kalandyk/1124617319" target="_blank"><i class="social__icon social__icon--apple demo-icon icon-apple"></i></a>
+            <a class="social__link" href="https://open.spotify.com/artist/47khFjHIbgcBVM4Y9ElRMv" target="_blank"><i class="social__icon social__icon--spotify demo-icon icon-spotify"></i></a>
+        </div>
         <section class="footer__contact">
-            <p class="footer__paragraph">Adres:<br><span class="footer__important">82-300 Elbląg, ul. Kosynierów Gdyńskich 4</span></p>
-            <p class="footer__paragraph">Email:<br><span class="footer__important">gracjan.kalandyk@gmail.com</span></p>
-            <p class="footer__paragraph">Telefon:<br><span class="footer__important">503 469 326</span></p>
+            <p class="footer__paragraph">ADRES:<br><span class="footer__important">82-300 Elbląg, ul. Kosynierów Gdyńskich 4</span></p>
+            <p class="footer__paragraph">EMAIL:<br><span class="footer__important">gracjan.kalandyk@gmail.com</span></p>
+            <p class="footer__paragraph">TELEFON:<br><span class="footer__important">503 469 326</span></p>
         </section>
-    </div>
+        <section class="footer__links">
+            <div class="link-box">
+                <a class="footer__link" href="#home"><p class="footer__paragraph footer__paragraph--center">HOME</p></a>
+                <a class="footer__link" href="#school"><p class="footer__paragraph footer__paragraph--center">O NAS</p></a>
+                <a class="footer__link" href="#kalandyk"><p class="footer__paragraph footer__paragraph--center">GRACJAN</p></a>
+                <a class="footer__link" href="#references"><p class="footer__paragraph footer__paragraph--center">OPINIE</p></a>
+            </div>
+            <div class="link-box">
+                <a class="footer__link" href="#vocal"><p class="footer__paragraph footer__paragraph--center">WOKAL</p></a>
+                <a class="footer__link" href="#show"><p class="footer__paragraph footer__paragraph--center">SPRAWDŹ NAS</p></a>
+                <a class="footer__link" href="#guitar"><p class="footer__paragraph footer__paragraph--center">GITARA</p></a>
+                <a class="footer__link" href="#bass"><p class="footer__paragraph footer__paragraph--center">BAS</p></a>
+            </div>
+            <div class="link-box">
+                <a class="footer__link" href="#piano"><p class="footer__paragraph footer__paragraph--center">PIANINO</p></a>
+                <a class="footer__link" href="#ukulele"><p class="footer__paragraph footer__paragraph--center">UKULELE</p></a>
+                <a class="footer__link" href="#studio"><p class="footer__paragraph footer__paragraph--center">STUDIO</p></a>
+                <a class="footer__link" href="#publishing"><p class="footer__paragraph footer__paragraph--center">WYDAWNICTWO</p></a>
+                <a class="footer__link" href="gallery.html"><p class="footer__paragraph footer__paragraph--center">GALERIA</p></a>
+            </div>
+        </section>
 </footer>
     <script src="js/hamburger.js"></script>
     <script src="js/slider.js"></script>
@@ -132,14 +163,6 @@
         const imageArr = [
             'img/slider/pic(1).png',
             'img/slider/pic(2).jpg',
-            'img/slider/pic(3).jpg',
-            'img/slider/pic(4).jpg',
-            'img/slider/pic(5).jpg',
-            'img/slider/pic(6).jpg',
-            'img/slider/pic(7).jpg',
-            'img/slider/pic(8).jpg',
-            'img/slider/pic(9).jpg',
-            'img/slider/pic(10).jpg',
         ];
 
         const slider = new Slider(imageArr)

@@ -20,6 +20,7 @@ body::-webkit-scrollbar {
 
 .navigation__arrow {
   width: 12px;
+  margin-right: 8px;
 }
 
 .footer__link {
@@ -441,8 +442,9 @@ body::-webkit-scrollbar {
 
   .gear__paragraph {
     color: white;
-    font-size: 18px;
-    padding: 32px;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 16px 16px 0 16px;
     text-transform: uppercase;
     margin: 0;
     text-align: justify;
