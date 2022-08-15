@@ -10,6 +10,7 @@
     width: 100vw;
     padding: 0;
     margin: 0;
+    z-index: 100;
     }
 
   .navigation__list {
@@ -388,7 +389,8 @@
 
   .window__paragraph--reference-small {
     text-align: justify;
-    color:#ffffff;
+    color:#000000;
+    background-color: white;
     font-size: 20px;
     padding: 16px;
   }
@@ -571,5 +573,11 @@
 
   .social__icon {
     font-size: 24px;
+  }
+
+  .profile-pic {
+    border-radius: 100%;
+    width: 30%;
+    margin: auto;
   }
 }

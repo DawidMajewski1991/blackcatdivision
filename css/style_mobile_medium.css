@@ -329,7 +329,8 @@
 
   .window__paragraph--reference-small {
     text-align: justify;
-    color:#ffffff;
+    color:#000000;
+    background-color: white;
     font-size: 20px;
     padding: 16px;
   }
@@ -510,5 +511,9 @@
 
   .social__icon {
     font-size: 42px;
+  }
+  
+  .profile-pic {
+    display: none;
   }
 }

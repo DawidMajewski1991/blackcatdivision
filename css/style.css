@@ -49,6 +49,12 @@ body::-webkit-scrollbar {
   color:rgb(16, 189, 0);
 }
 
+.window__paragraph--reference-small {
+  font-family: 'Petit Formal Script';
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
 @media (min-width: 1440px) and (max-width: 2560px) {
   .main__grid {
     display:grid ;
@@ -376,7 +382,8 @@ body::-webkit-scrollbar {
 
   .window__paragraph--reference-small {
     text-align: justify;
-    color:#ffffff;
+    color:#000000;
+    background-color: white;
     font-size: 20px;
     padding: 16px;
   }
@@ -562,5 +569,9 @@ body::-webkit-scrollbar {
   .social__icon {
     font-size: 48px;
     padding: 0 8px 0 0;
+  }
+
+  .profile-pic {
+    display: none;
   }
 }
