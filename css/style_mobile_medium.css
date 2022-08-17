@@ -224,17 +224,12 @@
   }
 
   .window__header--special {
-    color:#ffffff;
-    background-color: #000000;
+    color:#000000;
     width: fit-content;
     padding: 0 16px;
     margin: 128px auto 64px;
     letter-spacing: 2px;
-      -webkit-transform:scale(1,1.5); /* Safari and Chrome */
-      -moz-transform:scale(1,1.5); /* Firefox */
-      -ms-transform:scale(1,1.5); /* IE 9 */
-      -o-transform:scale(1,1.5); /* Opera */
-      transform:scale(1,1.5); /* W3C */
+    font-size: 60px;
   }
 
   .window__importantA {
@@ -246,7 +241,7 @@
   }
 
   .window__paragraph {
-    background-color: rgba(0, 0, 0, 0.705);
+    background-color: rgba(0, 0, 0, 0.39);
     color: white;
     padding: 32px;
     text-align: justify;
@@ -262,9 +257,10 @@
   .window__paragraph--special {
     margin: 0;
     text-align: center;
-    color: #ff8929;
+    color: #000000;
     padding: 8px;
-    font-size: 16px;
+    font-size: 20px;
+    background: none;
   }
 
   .window__wall--ukulele {
@@ -287,17 +283,11 @@
   }
 
   .window__header--reference {
-    color:#ffffff;
-    background-color: #000000;
+    color:#000000;
     width: fit-content;
     padding: 0 16px;
     margin: 128px auto 64px;
-    letter-spacing: 5px;
-      -webkit-transform:scale(1,1.1); /* Safari and Chrome */
-      -moz-transform:scale(1,1.1); /* Firefox */
-      -ms-transform:scale(1,1.1); /* IE 9 */
-      -o-transform:scale(1,1.1); /* Opera */
-      transform:scale(1,1.1); /* W3C */
+    letter-spacing: 2px;
   }
 
   .reference__element {
@@ -320,16 +310,17 @@
 
   .window__paragraph--reference {
     text-align: center;
-    color:#ff8929;
+    color:#000000;
+    background: none;
     text-transform: uppercase;
-    font-size: 28px;
+    font-size: 40px;
     padding: 8px;
     max-width: 800px
   }
 
   .window__paragraph--reference-small {
-    text-align: justify;
-    color:#000000;
+    text-align: center;
+    color:#585858;
     background-color: white;
     font-size: 20px;
     padding: 16px;
@@ -384,7 +375,7 @@
   }
 
   .gear__element {
-    background-color: rgba(0, 0, 0, 0.753);
+    background-color: rgba(0, 0, 0, 0.39);
     width: 70%;
     height: fit-content;
     grid-gap: 16px;

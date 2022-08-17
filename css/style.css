@@ -50,9 +50,15 @@ body::-webkit-scrollbar {
 }
 
 .window__paragraph--reference-small {
-  font-family: 'Petit Formal Script';
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  letter-spacing: 0.5px;
+  letter-spacing: 2px;
+}
+
+.star {
+  color: rgb(255, 217, 0);
+  font-size: 28px;
 }
 
 @media (min-width: 1440px) and (max-width: 2560px) {
@@ -288,17 +294,11 @@ body::-webkit-scrollbar {
   }
 
   .window__header--reference {
-    color:#ffffff;
-    background-color: #000000;
+    color:#000000;
     width: fit-content;
     padding: 0 16px;
     margin: 128px auto 64px;
     letter-spacing: 5px;
-      -webkit-transform:scale(1,1.1); /* Safari and Chrome */
-      -moz-transform:scale(1,1.1); /* Firefox */
-      -ms-transform:scale(1,1.1); /* IE 9 */
-      -o-transform:scale(1,1.1); /* Opera */
-      transform:scale(1,1.1); /* W3C */
   }
 
   .reference__element {
@@ -320,17 +320,11 @@ body::-webkit-scrollbar {
   }
 
   .window__header--special {
-    color:#ffffff;
-    background-color: #000000;
+    color:#000000;
     width: fit-content;
     padding: 0 16px;
     margin: 128px auto 64px;
     letter-spacing: 2px;
-      -webkit-transform:scale(1,1.5); /* Safari and Chrome */
-      -moz-transform:scale(1,1.5); /* Firefox */
-      -ms-transform:scale(1,1.5); /* IE 9 */
-      -o-transform:scale(1,1.5); /* Opera */
-      transform:scale(1,1.5); /* W3C */
   }
 
   .window__importantA {
@@ -342,7 +336,7 @@ body::-webkit-scrollbar {
   }
 
   .window__paragraph {
-    background-color: rgba(0, 0, 0, 0.705);
+    background-color: rgba(0, 0, 0, 0.39);
     color: white;
     padding: 32px;
     text-align: justify;
@@ -358,9 +352,10 @@ body::-webkit-scrollbar {
   .window__paragraph--special {
     margin: 0;
     text-align: center;
-    color: #ff8929;
+    color: #000000;
     padding: 8px;
     font-size: 28px;
+    background: none;
   }
 
   .window__paragraph--questions {
@@ -373,16 +368,19 @@ body::-webkit-scrollbar {
 
   .window__paragraph--reference {
     text-align: center;
-    color:#ff8929;
+    color:#000000;
     text-transform: uppercase;
-    font-size: 28px;
+    font-size: 30px;
     padding: 8px;
     max-width: 800px;
+    font-weight: 700;
+    background: none;
+    letter-spacing: 3px;
   }
 
   .window__paragraph--reference-small {
-    text-align: justify;
-    color:#000000;
+    text-align: center;
+    color:#585858;
     background-color: white;
     font-size: 20px;
     padding: 16px;
@@ -439,7 +437,7 @@ body::-webkit-scrollbar {
   }
 
   .gear__element {
-    background-color: rgba(0, 0, 0, 0.753);
+    background-color: rgba(0, 0, 0, 0.39);
     width: 640px;
     height: 135px;
     display: grid;
