@@ -553,6 +553,10 @@ body::-webkit-scrollbar {
     height: 225px;
   }
 
+  .youtube-frame--bass {
+    margin: auto;
+  }
+
   .social {
     color: white;
     display: grid;
