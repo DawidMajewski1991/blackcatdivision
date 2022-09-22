@@ -336,7 +336,7 @@ body::-webkit-scrollbar {
   }
 
   .window__paragraph {
-    background-color: rgba(0, 0, 0, 0.26);
+    background-color: rgba(0, 0, 0, 0);
     color: white;
     padding: 32px;
     text-align: justify;
