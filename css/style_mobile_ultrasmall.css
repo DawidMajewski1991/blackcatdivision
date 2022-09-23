@@ -543,6 +543,10 @@
     height: 63px;
   }
 
+  .youtube-frame--bass {
+    margin: auto;
+  }
+
   .profile-pic {
     border-radius: 100%;
     width: 50%;

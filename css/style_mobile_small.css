@@ -553,6 +553,10 @@
     height: 135px;
   }
 
+  .youtube-frame--bass {
+    margin: auto;
+  }
+
   .social {
     color: white;
     display: grid;
