@@ -306,7 +306,7 @@
   }
 
   .window__paragraph {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
     color: white;
     padding: 8px;
     text-align: justify;
@@ -437,7 +437,7 @@
   }
 
   .gear__element {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
@@ -462,7 +462,7 @@
   .publishing {
     width: 100vw;
     height: 700px;
-    background-color: rgba(0, 0, 0, 0.247);
+    background-color: rgba(0, 0, 0, 0.4);
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 8px;
