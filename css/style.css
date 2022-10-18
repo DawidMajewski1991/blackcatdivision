@@ -18,6 +18,11 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.home__header {
+  margin: 0;
+  padding: 0;
+}
+
 .navigation__arrow {
   width: 12px;
   margin-right: 8px;
