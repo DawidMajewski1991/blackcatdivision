@@ -99,7 +99,7 @@
 
   .window--01 {
     /*Photo by ? */
-    background: url('../img/school.jpg');
+    background: url('../img/school.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -107,7 +107,7 @@
 
   .window--01a {
     /*Photo by ? */
-    background: url('../img/kalandyk.jpg');
+    background: url('../img/kalandyk.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -117,7 +117,7 @@
 
   .window--02 {
     /*Photo by ? */
-    background: url('../img/vocal.jpg');
+    background: url('../img/vocal.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -127,7 +127,7 @@
 
   .window--03 {
     /*Photo by ? */
-    background: url('../img/guitar.jpg');
+    background: url('../img/guitar.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -137,7 +137,7 @@
 
   .window--04 {
     /*Photo by ? */
-    background: url('../img/bass.jpg');
+    background: url('../img/bass.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -147,7 +147,7 @@
 
   .window--05 {
     /*Photo by ? */
-    background: url('../img/piano.jpg');
+    background: url('../img/piano.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -155,7 +155,7 @@
 
   .window--06 {
     /*Photo by ? */
-    background: url('../img/ukulele.jpg');
+    background: url('../img/ukulele.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -165,7 +165,7 @@
 
   .window--07 {
     /*Photo by ? */
-    background: url('../img/studio.jpg');
+    background: url('../img/studio.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -175,7 +175,7 @@
 
   .window--08 {
     /*Photo by ? */
-    background: url('../img/publishing.jpg');
+    background: url('../img/publishing.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -248,7 +248,8 @@
   }
 
   .window__importantB {
-    color:#ff8929;
+    color: #ff2323;
+    font-weight: 700;
   }
 
   .window__paragraph {
@@ -269,17 +270,18 @@
   .window__paragraph--special {
     margin: 64px 0 0 0;
     text-align: center;
-    color: #ff8929;
+    color: #ff2323;
     padding: 32px;
     font-size: 56px;
   }
 
   .window__paragraph--questions {
-    color:#ff8929;
+    color: #ff2323;
     text-align: left;
     text-transform: uppercase;
     font-size: 48px;
     line-height: 56px;
+    font-weight: 700;
   }
 
   .window__wall--reference {
@@ -324,7 +326,7 @@
 
   .window__paragraph--reference {
     text-align: center;
-    color:#ff8929;
+    color: #ff2323;
     text-transform: uppercase;
     font-size: 48px;
     padding:32px;

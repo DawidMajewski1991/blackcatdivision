@@ -97,7 +97,7 @@
   .hamburger:hover {
     color:#ff2323;
   }
-  
+
   .top {
     display: grid;
     grid-template-columns: 5fr 2fr;
@@ -149,7 +149,7 @@
 
   .window--01 {
     /*Photo by ? */
-    background: url('../img/school.jpg');
+    background: url('../img/school.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -157,7 +157,7 @@
 
   .window--01a {
     /*Photo by ? */
-    background: url('../img/kalandyk.jpg');
+    background: url('../img/kalandyk.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -168,7 +168,7 @@
 
   .window--02 {
     /*Photo by ? */
-    background: url('../img/vocal.jpg');
+    background: url('../img/vocal.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -182,7 +182,7 @@
 
   .window--03 {
     /*Photo by ? */
-    background: url('../img/guitar.jpg');
+    background: url('../img/guitar.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -193,7 +193,7 @@
 
   .window--04 {
     /*Photo by ? */
-    background: url('../img/bass.jpg');
+    background: url('../img/bass.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -204,7 +204,7 @@
 
   .window--05 {
     /*Photo by ? */
-    background: url('../img/piano.jpg');
+    background: url('../img/piano.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -212,7 +212,7 @@
 
   .window--06 {
     /*Photo by ? */
-    background: url('../img/ukulele.jpg');
+    background: url('../img/ukulele.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -223,7 +223,7 @@
 
   .window--07 {
     /*Photo by ? */
-    background: url('../img/studio.jpg');
+    background: url('../img/studio.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -234,7 +234,7 @@
 
   .window--08 {
     /*Photo by ? */
-    background: url('../img/publishing.jpg');
+    background: url('../img/publishing.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -302,11 +302,12 @@
   }
 
   .window__importantB {
-    color:#ff8929;
+    color: #ff2323;
+    font-weight: 700;
   }
 
   .window__paragraph {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 8px;
     text-align: justify;
@@ -330,11 +331,12 @@
   }
 
   .window__paragraph--questions {
-    color:#ff8929;
+    color: #ff2323;
     text-align: left;
     text-transform: uppercase;
     font-size: 16px;
     line-height: 24px;
+    font-weight: 700;
   }
 
   .window__wall--reference {
@@ -437,7 +439,7 @@
   }
 
   .gear__element {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
@@ -462,7 +464,7 @@
   .publishing {
     width: 100vw;
     height: 700px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.7);
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 8px;
