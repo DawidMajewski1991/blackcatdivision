@@ -115,6 +115,16 @@
     grid-template-columns: 55% 45%;
   }
 
+  .window--01b {
+    /*Photo by ? */
+    background-color:#424242;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 55% 45%;
+  }
+
   .window--02 {
     /*Photo by ? */
     background: url('../img/vocal.webp');

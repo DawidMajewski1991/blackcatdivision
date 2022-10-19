@@ -5,11 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Black Cat Division</title>
-        <meta name="description" content="">
+        <meta name="description" content="Strona szkoły wokalu i gry na instrumentach. Zajęcia prowadzą Gracjan Kalandyk i Dawid Majewski - doświadczeni muzycy, którzy uwielbiają przekazywać wiedzę innym.">
         <link rel="icon" type="image/x-icon" href="img/icon.webp">
-        <meta property="og:title" content="Black Cat Divsion">
-        <meta property="og:description" content="">
-        <meta property="og:url" content="">
+        <meta property="og:title" content="Black Cat Divsion" />
+        <meta property="og:description" content="Strona szkoły wokalu i gry na instrumentach. Zajęcia prowadzą Gracjan Kalandyk i Dawid Majewski - doświadczeni muzycy, którzy uwielbiają przekazywać wiedzę innym." />
+        <meta property="og:url" content="http://www.blackcatdivision.pl" />
         <meta property="og:image" content="">
         <link href="css/normalize.css" rel="stylesheet" type="text/css">
         <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -17,7 +17,7 @@
         <link href="css/style_mobile_small.css" rel="stylesheet" type="text/css">
         <link href="css/style_mobile_medium.css" rel="stylesheet" type="text/css">
         <link href="css/style_uhd.css" rel="stylesheet" type="text/css">
-        <link href="icons/css/fontello.css" rel="stylesheet" type="text/css">
+        <link href="css/icons/css/fontello.css" rel="stylesheet" type="text/css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
@@ -34,7 +34,7 @@
                         <a class="navigation__link" href="#home"><img class="navigation__arrow" src="img/hand.webp" alt=""> HOME</a>
                     </li>
                     <li class="navigation__item navigation__item--school-js">
-                        <a class="navigation__link "><img class="navigation__arrow" src="img/hand.webp" alt=""> SZKOŁA</a>
+                        <button class="navigation__button"><img class="navigation__arrow" src="img/hand.webp" alt=""> SZKOŁA</button>
                         <ul class="navigation__sublist navigation__sublist--school-js">
                             <li class="navigation__subitem">
                                 <a class="navigation__sublink" href="#school"><img class="navigation__arrow" src="img/hand.webp" alt=""> O NAS</a>
@@ -48,7 +48,7 @@
                         </ul>
                     </li>
                     <li class="navigation__item navigation__item--vocal-js">
-                        <a class="navigation__link"><img class="navigation__arrow" src="img/hand.webp" alt=""> WOKAL</a>
+                        <button class="navigation__button"><img class="navigation__arrow" src="img/hand.webp" alt=""> WOKAL</button>
                         <ul class="navigation__sublist navigation__sublist--vocal-js">
                             <li class="navigation__subitem">
                                 <a class="navigation__sublink" href="#vocal"><img class="navigation__arrow" src="img/hand.webp" alt=""> INFO</a>
@@ -59,7 +59,7 @@
                         </ul>
                     </li>
                     <li class="navigation__item navigation__item--instruments-js">
-                        <a class="navigation__link"><img class="navigation__arrow" src="img/hand.webp" alt=""> INSTRUMENTY</a>
+                        <button class="navigation__button"><img class="navigation__arrow" src="img/hand.webp" alt=""> INSTRUMENTY</button>
                         <ul class="navigation__sublist navigation__sublist--instruments-js">
                             <li class="navigation__subitem">
                                 <a class="navigation__sublink" href="#guitar"><img class="navigation__arrow" src="img/hand.webp" alt=""> GITARA</a>
@@ -121,6 +121,20 @@
                     <img src="img/kalandyk_profile.webp" class="profile-pic" alt="Zdjęcie Gracjana Kalandyka.">
                     <p class="window__paragraph">
                         Gracjan Kalandyk to <span class="window__importantB">uczestnik IV edycji programu X-Factor</span> oraz <span class="window__importantB">finalista V edycji The Voice of Poland</span> gdzie pod skrzydłami Justyny Steczkowskiej zajął III miejsce. Jest również absolwentem wokalistyki jazzowej i muzyki estradowej na Akademii Muzycznej w Gdańsku oraz czynnym wokalistą z doświadczeniem scenicznym, gitarzystą, kompozytorem i autorem tekstów.<br><br>Ma za sobą koncerty, na których <span class="window__importantB">wystąpił wspólnie m. in. z: Margaret, Juan Carlos Cano, Justyną Steczkowską, zespołem Dżem, Markiem Piekarczykiem i TSA.</span> Ma na swoim koncie debiutanckim album, wydany nakładem największej wytwórni w Polsce - Universal Music Polska. Produkcją albumu zajął się Robert Amirian, znany ze współpracy z takimi artystami jak: Fismoll, Ewa Farna, Ania Szarmach, Kari, Kasia Kowalska, Anita Lipnicka, Kayah, Mietek Szcześniak czy Kuba Badach. Najnowsze single artysty zapowiadające kolejny album, produkowane były ze znanym duetem – Martin Lange.
+                    </p>
+                </div>
+                <div></div>
+            </section>
+            <div class="space"></div>
+            <section class="window window--01b" id="majewski">
+                <header>
+                    <h2 class="window__header">DAWID MAJEWSKI</h2>
+                </header>
+                <div></div>
+                <div class="window__wall window__wall--column">
+                    <img src="img/majewski_profile.webp" class="profile-pic" alt="Zdjęcie Dawida Majewskiego.">
+                    <p class="window__paragraph">
+                        Dawid Majewski to <span class="window__importantB">muzyk</span>.
                     </p>
                 </div>
                 <div></div>
@@ -342,9 +356,9 @@
                     <a class="social__link" aria-label="Spotify." href="https://open.spotify.com/artist/47khFjHIbgcBVM4Y9ElRMv" target="_blank"><i class="social__icon social__icon--spotify demo-icon icon-spotify"></i></a>
                 </div>
                 <div class="footer__contact">
-                    <p class="footer__paragraph">ADRES:<br><span class="footer__important">82-300 Elbląg, ul. Kosynierów Gdyńskich 4</span></p>
-                    <p class="footer__paragraph">EMAIL:<br><span class="footer__important">gracjan.kalandyk@gmail.com</span></p>
-                    <p class="footer__paragraph">TELEFON:<br><span class="footer__important">503 469 326</span></p>
+                    <p class="footer__paragraph">ADRES:<br><span class="footer__important"><a class="footer__call" href="https://goo.gl/maps/s4A6GsvZ4faZM9zJ9" target="_blank">82-300 Elbląg, ul. Kosynierów Gdyńskich 4</a></span></p>
+                    <p class="footer__paragraph">EMAIL:<br><span class="footer__important"><a class="footer__call" href="mailto:gracjan.kalandyk@gmail.com">gracjan.kalandyk@gmail.com</a></span></p>
+                    <p class="footer__paragraph">TELEFON:<br><span class="footer__important"><a class="footer__call" href="tel:503469326">503 469 326</a></span></p>
                 </div>
                 <nav class="footer__links">
                     <div class="link-box">
