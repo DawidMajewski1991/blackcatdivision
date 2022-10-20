@@ -44,6 +44,10 @@
     display: none;
   }
 
+  .navigation__sublink > .navigation__arrow {
+    display: none;
+  }
+
   .navigation__list > .navigation__item:hover > .navigation__sublist {
     display: block;
     list-style-type: none;
