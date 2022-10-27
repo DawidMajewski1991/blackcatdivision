@@ -94,16 +94,35 @@
     </header>
     <main class="main__grid">
         <h1 class="gallery__header">Galeria</h1>
-        <section class="slider">
-            <section class="slider__container">
+        <div class="slider">
+            <div class="slider__container">
                 <button class="slider__button slider__button--prev" data-button-prev>ᐸ</button>
                 <figure class="slide" data-slide></figure>
                 <button class="slider__button slider__button--next" data-button-next>ᐳ</button>
-            </section>
-        </section>
+            </div>
+        </div>
     </main>
+    <aside class="aside-socials">
+        <ul class="aside-socials__list">
+            <li class="aside-socials__item">
+                <a class="aside-socials__link" aria-label="Facebook." href="https://www.facebook.com/blackcatdivision/" target="_blank"><i class="aside__social social__icon--facebook demo-icon icon-facebook"></i></a>
+            </li>
+            <li class="aside-socials__item">
+                <a class="aside-socials__link" aria-label="Instagram." href="https://www.instagram.com/blackcatdivision/?hl=pl" target="_blank"><i class="aside__social social__icon--instagram demo-icon icon-instagram"></i></a>
+            </li>
+            <li class="aside-socials__item">
+                <a class="aside-socials__link" aria-label="Youtube." href="https://www.youtube.com/user/GracjanKalandyk" target="_blank"><i class="aside__social social__icon--youtube demo-icon icon-youtube-play aside__social"></i></a>
+            </li>
+            <li class="aside-socials__item">
+                <a class="aside-socials__link" aria-label="Apple Music." href="https://music.apple.com/us/artist/gracjan-kalandyk/1124617319" target="_blank"><i class="aside__social social__icon--apple demo-icon icon-apple aside__social"></i></a>
+            </li>
+            <li class="aside-socials__item">
+                <a class="aside-socials__link" aria-label="Spotify." href="https://open.spotify.com/artist/47khFjHIbgcBVM4Y9ElRMv" target="_blank"><i class="aside__social social__icon--spotify demo-icon icon-spotify aside__social"></i></a>
+            </li>
+        </ul>
+    </aside>
     <footer class="footer" id="contact">
-        <img class="footer__logo" src="img/logo_black_long.webp" alt="Logo szkoły Black Cat Division.">
+        <h2><img class="footer__logo" src="img/logo_black_long.webp" alt="Logo szkoły Black Cat Division."></h2>
         <div class="social">
             <a class="social__link" aria-label="Facebook." href="https://www.facebook.com/blackcatdivision/" target="_blank"><i class="social__icon social__icon--facebook demo-icon icon-facebook"></i></a>
             <a class="social__link" aria-label="Instagram." href="https://www.instagram.com/blackcatdivision/?hl=pl" target="_blank"><i class="social__icon social__icon--instagram demo-icon icon-instagram"></i></a>
@@ -111,31 +130,34 @@
             <a class="social__link" aria-label="Apple Music." href="https://music.apple.com/us/artist/gracjan-kalandyk/1124617319" target="_blank"><i class="social__icon social__icon--apple demo-icon icon-apple"></i></a>
             <a class="social__link" aria-label="Spotify." href="https://open.spotify.com/artist/47khFjHIbgcBVM4Y9ElRMv" target="_blank"><i class="social__icon social__icon--spotify demo-icon icon-spotify"></i></a>
         </div>
-        <section class="footer__contact">
+        <div class="footer__contact">
             <p class="footer__paragraph">ADRES:<br><span class="footer__important"><a class="footer__call" href="https://goo.gl/maps/s4A6GsvZ4faZM9zJ9" target="_blank">82-300 Elbląg, ul. Kosynierów Gdyńskich 4</a></span></p>
             <p class="footer__paragraph">EMAIL:<br><span class="footer__important"><a class="footer__call" href="mailto:gracjan.kalandyk@gmail.com">gracjan.kalandyk@gmail.com</a></span></p>
             <p class="footer__paragraph">TELEFON:<br><span class="footer__important"><a class="footer__call" href="tel:503469326">503 469 326</a></span></p>
-        <section class="footer__links">
+        </div>
+        <nav class="footer__links">
             <div class="link-box">
-                <a class="footer__link" href="#home"><p class="footer__paragraph footer__paragraph--center">HOME</p></a>
-                <a class="footer__link" href="#school"><p class="footer__paragraph footer__paragraph--center">O NAS</p></a>
-                <a class="footer__link" href="#kalandyk"><p class="footer__paragraph footer__paragraph--center">GRACJAN</p></a>
-                <a class="footer__link" href="#references"><p class="footer__paragraph footer__paragraph--center">OPINIE</p></a>
+                <a class="footer__link" href="index.html#home"><p class="footer__paragraph footer__paragraph--center">HOME</p></a>
+                <a class="footer__link" href="index.html#school"><p class="footer__paragraph footer__paragraph--center">O NAS</p></a>
+                <a class="footer__link" href="index.html#kalandyk"><p class="footer__paragraph footer__paragraph--center">GRACJAN</p></a>
+                <a class="footer__link" href="index.html#majewski"><p class="footer__paragraph footer__paragraph--center">DAWID</p></a>
+                <a class="footer__link" href="index.html#references"><p class="footer__paragraph footer__paragraph--center">OPINIE</p></a>
             </div>
             <div class="link-box">
-                <a class="footer__link" href="#vocal"><p class="footer__paragraph footer__paragraph--center">WOKAL</p></a>
-                <a class="footer__link" href="#show"><p class="footer__paragraph footer__paragraph--center">SPRAWDŹ NAS</p></a>
-                <a class="footer__link" href="#guitar"><p class="footer__paragraph footer__paragraph--center">GITARA</p></a>
-                <a class="footer__link" href="#bass"><p class="footer__paragraph footer__paragraph--center">BAS</p></a>
+                <a class="footer__link" href="index.html#vocal"><p class="footer__paragraph footer__paragraph--center">WOKAL</p></a>
+                <a class="footer__link" href="index.html#show"><p class="footer__paragraph footer__paragraph--center">SPRAWDŹ NAS</p></a>
+                <a class="footer__link" href="index.html#guitar"><p class="footer__paragraph footer__paragraph--center">GITARA</p></a>
+                <a class="footer__link" href="index.html#bass"><p class="footer__paragraph footer__paragraph--center">BAS</p></a>
+                <a class="footer__link" href="index.html#piano"><p class="footer__paragraph footer__paragraph--center">PIANINO</p></a>
             </div>
             <div class="link-box">
-                <a class="footer__link" href="#piano"><p class="footer__paragraph footer__paragraph--center">PIANINO</p></a>
-                <a class="footer__link" href="#ukulele"><p class="footer__paragraph footer__paragraph--center">UKULELE</p></a>
-                <a class="footer__link" href="#studio"><p class="footer__paragraph footer__paragraph--center">STUDIO</p></a>
-                <a class="footer__link" href="#publishing"><p class="footer__paragraph footer__paragraph--center">WYDAWNICTWO</p></a>
+                <a class="footer__link" href="index.html#ukulele"><p class="footer__paragraph footer__paragraph--center">UKULELE</p></a>
+                <a class="footer__link" href="index.html#studio"><p class="footer__paragraph footer__paragraph--center">STUDIO</p></a>
+                <a class="footer__link" href="index.html#publishing"><p class="footer__paragraph footer__paragraph--center">WYDAWNICTWO</p></a>
                 <a class="footer__link" href="gallery.html"><p class="footer__paragraph footer__paragraph--center">GALERIA</p></a>
+                <a class="footer__link" href="index.html#contact"><p class="footer__paragraph footer__paragraph--center">KONTAKT</p></a>
             </div>
-        </section>
+        </nav>
 </footer>
     <script src="js/hamburger.js"></script>
     <script src="js/slider.js"></script>

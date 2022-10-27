@@ -4,6 +4,14 @@
     grid-template-rows: 1fr;
   }
 
+  .grid {
+    grid-template-columns: 1fr;
+}
+
+.aside-socials {
+  display: none;
+}
+
   .header-main {
     background-color: rgba(0, 0, 0, 0.918);
     position:fixed;

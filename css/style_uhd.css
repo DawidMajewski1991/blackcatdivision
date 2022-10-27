@@ -179,8 +179,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display: grid;
-    grid-template-columns: 50vw 50vw;
   }
 
   .window--08 {
@@ -392,34 +390,38 @@
   .gear {
     display: grid;
     grid-gap: 32px;
-    justify-items: flex-end;
-    grid-template-rows: 280px 280px 280px;
+    justify-content: center;
+    width: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
     padding-right: 144px;
     margin-top: 24px;
-  }
+    margin-bottom: 96px;
+}
 
-  .gear__element {
-    background-color: rgba(0, 0, 0, 0.753);
-    width: 830px;
-    height: 280px;
+.gear__element {
+    background-color: rgba(0, 0, 0, 0.801);
+    height: fit-content;
     display: grid;
-    grid-template-columns: 400px 430px;
+    grid-template-columns: 1fr 240px;
     align-content: space-around;
-  }
+    padding: 16px;
+}
 
-  .gear__paragraph {
+.gear__paragraph {
     color: white;
-    font-size: 18px;
-    padding: 32px;
-    text-transform: uppercase;
+    font-size: 20px;
+    width: fit-content;
+    line-height: 30px;
+    padding: 0 16px 0 0;
     margin: 0;
     text-align: justify;
-  }
+}
 
-  .gear__pic {
-    height: 225px;
-    width: 400px;
-  }
+.gear__pic {
+    height: 135px;
+    width: 240px;
+    align-self: center
+}
 
   .publishing {
     width: 100vw;

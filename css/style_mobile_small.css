@@ -3,6 +3,10 @@
         display: grid;
         grid-template-rows: 1fr;
     }
+    
+    .grid {
+        grid-template-columns: 1fr;
+    }
 
     .header-main {
         background-color: rgba(0, 0, 0, 0.918);
@@ -102,6 +106,10 @@
 
     .hamburger:hover {
         color: #ff2323;
+    }
+
+    .aside-socials {
+        display: none;
     }
 
     .top {
